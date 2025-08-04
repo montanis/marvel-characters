@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = "==3.12.*"
 resolution-markers = [
     "platform_machine == 'x86_64' and sys_platform == 'darwin'",
@@ -808,6 +808,7 @@ dependencies = [
     { name = "mlflow" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pip" },
     { name = "pyarrow" },
     { name = "pydantic" },
     { name = "python-dotenv" },
@@ -841,6 +842,7 @@ requires-dist = [
     { name = "mlflow", specifier = "==3.1.1" },
     { name = "numpy", specifier = "==1.26.4" },
     { name = "pandas", specifier = "==2.3.0" },
+    { name = "pip", specifier = ">=25.1.1" },
     { name = "pip", marker = "extra == 'dev'", specifier = ">=25.0.1,<26" },
     { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=4.1.0,<5" },
     { name = "pre-commit", marker = "extra == 'test'", specifier = ">=4.1.0,<5" },

@@ -1,7 +1,8 @@
 # Databricks notebook source
 
-# MAGIC %pip install -e ..
-# MAGIC %restart_python
+# Databricks magic commands for package installation and kernel restart
+%pip install -e ..
+%restart_python
 
 # COMMAND ----------
 # from pathlib import Path
